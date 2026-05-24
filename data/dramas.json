@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Nirvana in Fire",
+    "year": 2015,
+    "genre": ["historical", "political", "mystery"],
+    "mood": ["intense", "slow-burn", "strategic"],
+    "synopsis": "A disgraced general returns under a new identity to clear his name and seek justice, using his brilliant mind to navigate the treacherous imperial court.",
+    "cast": ["Hu Ge", "Wang Kai", "Liu Tao"],
+    "rating": 9.2,
+    "where_to_watch": ["Viki", "YouTube"]
+  },
+  {
+    "title": "The Story of Ming Lan",
+    "year": 2018,
+    "genre": ["historical", "romance", "family drama"],
+    "mood": ["lighthearted", "slow-burn", "witty"],
+    "synopsis": "A clever and cautious girl born of a concubine navigates family politics and romance in the Song Dynasty while hiding her true intelligence.",
+    "cast": ["Zhao Liying", "Feng Shaofeng"],
+    "rating": 8.4,
+    "where_to_watch": ["Netflix", "Viki"]
+  },
+  {
+    "title": "Word of Honor",
+    "year": 2021,
+    "genre": ["wuxia", "bromance", "adventure"],
+    "mood": ["fun", "action-packed", "emotional"],
+    "synopsis": "A retired assassin and a carefree cult leader cross paths and become entangled in a conspiracy involving a deadly manual coveted by the martial arts world.",
+    "cast": ["Zhang Zhehan", "Gong Jun"],
+    "rating": 8.8,
+    "where_to_watch": ["WeTV", "YouTube"]
+  },
+  {
+    "title": "Go Ahead",
+    "year": 2020,
+    "genre": ["family drama", "modern", "slice of life"],
+    "mood": ["emotional", "heartwarming", "tearjerker"],
+    "synopsis": "Three broken families come together when their children form an unlikely family bond, exploring themes of love, loss, and what it means to belong.",
+    "cast": ["Tan Songyun", "Song Weilong", "Zhang Xincheng"],
+    "rating": 8.7,
+    "where_to_watch": ["iQiyi", "Viki"]
+  },
+  {
+    "title": "The Untamed",
+    "year": 2019,
+    "genre": ["wuxia", "fantasy", "bromance"],
+    "mood": ["emotional", "epic", "slow-burn"],
+    "synopsis": "Two cultivators reunite after one is reborn into a rogue body, uncovering a conspiracy that destroyed both their clans sixteen years prior.",
+    "cast": ["Xiao Zhan", "Wang Yibo"],
+    "rating": 8.9,
+    "where_to_watch": ["Netflix", "WeTV"]
+  },
+  {
+    "title": "My Brilliant Friend",
+    "year": 2020,
+    "genre": ["modern", "romance", "youth"],
+    "mood": ["lighthearted", "sweet", "feel-good"],
+    "synopsis": "A bubbly and optimistic girl falls for a cold and distant doctor, slowly breaking down his walls through her infectious energy and kindness.",
+    "cast": ["Yang Zi", "Xiao Zhan"],
+    "rating": 8.3,
+    "where_to_watch": ["iQiyi", "Viki"]
+  },
+  {
+    "title": "Nothing But Thirty",
+    "year": 2020,
+    "genre": ["modern", "slice of life", "friendship"],
+    "mood": ["relatable", "emotional", "empowering"],
+    "synopsis": "Three women turning thirty face the pressures of marriage, career, and identity in modern Shanghai, navigating life's challenges together.",
+    "cast": ["Tong Yao", "Mao Xiaotong", "Jiang Shuying"],
+    "rating": 8.5,
+    "where_to_watch": ["iQiyi", "Viki"]
+  },
+  {
+    "title": "Love Between Fairy and Devil",
+    "year": 2022,
+    "genre": ["fantasy", "romance", "historical"],
+    "mood": ["fun", "enemies-to-lovers", "lighthearted"],
+    "synopsis": "A lowly fairy accidentally switches bodies with the most powerful devil lord, leading to a chaotic and comedic romance between two unlikely souls.",
+    "cast": ["Esther Yu", "Dylan Wang"],
+    "rating": 8.0,
+    "where_to_watch": ["Netflix", "iQiyi"]
+  },
+  {
+    "title": "Ashes of Love",
+    "year": 2018,
+    "genre": ["fantasy", "romance", "historical"],
+    "mood": ["epic", "emotional", "slow-burn"],
+    "synopsis": "A flower deity born without the ability to feel love becomes entangled in a celestial conflict and a complicated love triangle that spans multiple realms.",
+    "cast": ["Yang Zi", "Deng Lun", "Luo Yunxi"],
+    "rating": 8.6,
+    "where_to_watch": ["Viki", "YouTube"]
+  },
+  {
+    "title": "A Love So Beautiful",
+    "year": 2017,
+    "genre": ["modern", "romance", "youth"],
+    "mood": ["sweet", "nostalgic", "feel-good"],
+    "synopsis": "A cheerful high school girl pursues her cold but kind-hearted neighbor through their school years and into adulthood in this classic coming-of-age love story.",
+    "cast": ["Shen Yue", "Hu Yitian"],
+    "rating": 8.2,
+    "where_to_watch": ["Netflix", "Viki"]
+  }
+]
