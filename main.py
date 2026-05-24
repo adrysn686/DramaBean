@@ -1,13 +1,10 @@
 import os
 import json
 from flask import Flask, request, jsonify, render_template
-from google import genai 
+from google import genai
 from dotenv import load_dotenv
 
 load_dotenv()
-
-API = os.getenv("API_KEY")
-
 app = Flask(__name__)
 
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
@@ -42,6 +39,12 @@ You can help with:
 - Providing cast and actor information
 - Telling users where they can watch dramas
 - Giving dates of when dramas were released
+
+Always format your responses cleanly:
+- Keep responses concise — aim for 80 to 150 words maximum unless the answer need to be longer to answer comprehensively. Be friendly but get to the point.
+- add a lot of line breaks within each response.
+- Keep recommendations in a readable structure
+- Never use markdown like ** or ## since this is a chat interface
  
 Always be enthusiastic and warm. If someone seems new to cdramas, be welcoming and suggest beginner-friendly picks.
 If a user asks about a drama not in your database, use your general knowledge to help them.
@@ -52,7 +55,7 @@ Here is your drama database:
 When recommending dramas, explain WHY you think they'd enjoy it based on what they told you.
 Keep responses conversational and friendly, not like a boring list.
 """
-coversation_history = []
+conversation_history = []
 
 @app.route("/")
 def index():
@@ -64,28 +67,29 @@ def chat():
     if not user_message:
         return jsonify({"error": "No message provided"}), 400
     
-    coversation_history.append({
+    conversation_history.append({
         "role": "user",
         "content": user_message
     })
     
     full_conversation = SYSTEM_PROMPT + "\n\n"
-    for msg in coversation_history:
-        full_conversation += f"{msg["role"]}: {msg['content']}\n"
+    for msg in conversation_history:
+        full_conversation += f"{msg['role']}: {msg['content']}\n"
         
     response = client.models.generate_content(
-        model = "gemini-2.0-flash",
+        model = "gemini-2.5-flash",
         contents=full_conversation
     )
     
     bot_reply = response.text
+    print(bot_reply)
 
-    coversation_history.append({
+    conversation_history.append({
         "role": "chat_bot",
-        "content": user_message
+        "content": bot_reply
     })
 
-    return jsonify({"replay": bot_reply})
+    return jsonify({"reply": bot_reply})
 
 if __name__ == "__main__":
     app.run(debug = True)
